@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+        <div class="container-fluid">
+          <a class="navbar-brand  text-white " href="#">Weather</a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon  " ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-white" href="#">Contact</a>
+              </li></div>
+        </div>
+      </nav>
+
+
+      <div class="container  p-5">
+        <h1>Enter City Name</h1>
+        <input type="text" name="text" id="cityInput" placeholder="Enter City Name" class="form-control ">
+      </div>
+      <div class="container py-5">
+
+          <div class="row" >
+
+            <div class="col-md-4 " id="currentDay"></div>
+
+              <div class="col-md-4 "  id="currentnextDay">
+              </div>
+              <div class="col-md-4 "  id="currentAfternextDay">
+              </div>
+          </div>
+      </div>
+      <footer class="bg-dark  py-5 text-white ">
+        <div class="container text-center ">
+            <h2>For any project please contact me</h2>
+            <div class="social_links d-flex justify-content-center  ">
+                <div class="links ">
+                    <i class="fa fab fa-facebook me-2 "></i>
+                </div>
+                <div class="links">
+                    <i class="fa fab fab fa-github me-2"></i>
+                </div>
+                <div class="links">
+                    <i class="fa fab fab fa-instagram me-2"></i>
+                </div>
+                <div class="links">
+                    <i class="fa fab fab fa-tiktok me-2"></i>
+                </div>
+            </div>
+
+        </div>
+      </footer>
+    <script src="Java/jquery-3.7.1.min.js"></script>
+    <script src="Java/index.js"></script>
+    <script src="Java/bootstrap.bundle.min.js"></script>
+</body>
+</html>

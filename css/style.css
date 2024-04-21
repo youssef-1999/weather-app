@@ -1,0 +1,17 @@
+.links i
+{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.links i:hover
+{
+  background-color: skyblue;
+  color: black;
+}
