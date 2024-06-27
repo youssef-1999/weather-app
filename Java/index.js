@@ -47,7 +47,7 @@ function displayCurrent (city,icon,temp,wind,humidity,wind_dir) {
             <div>
             <h1 id="temp">${temp}</h1></div>
             <div class="img_Day">
-        <img src=${icon} class="w-100 " id="img_icon" alt="...">
+<i class="fa-solid fa-cloud"></i>
             </div>
             </div>
         </div>
@@ -89,7 +89,7 @@ function displayCurrent (city,icon,temp,wind,humidity,wind_dir) {
         <div class=" text-center">
         <h1 id="tempNextDay">${avgtemp_c}</h1>
         <div class="img_Day">
-    <img src=${weather_icon}   alt="...">
+<i class="fa-solid fa-cloud"></i>
         </div>
         <div>${weather_text}</div>
         </div>
@@ -126,7 +126,7 @@ function displayCurrent (city,icon,temp,wind,humidity,wind_dir) {
         <div class=" text-center">
         <h1 id="tempNextDay">${avgtemp_c}</h1>
         <div class="img_Day">
-    <img src=${weather_icon}   alt="...">
+<i class="fa-solid fa-cloud"></i>
         </div>
         <div>${weather_text}</div>
         </div>
